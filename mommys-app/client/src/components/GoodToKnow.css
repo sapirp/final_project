@@ -1,0 +1,30 @@
+.GoodToKnow{
+    background: rgba(228, 129, 211, 0.795);
+    margin-right: 15px;
+    margin-left: 2px;
+    padding: 1% 1%;
+    border-radius: 5px;
+    clear: both;
+
+}
+
+@media (max-width: 900px){
+    .GoodToKnow{
+        width: 97.6%;
+        margin:0 15px 30px 15px ;
+
+        
+    }
+}
+
+.goodToKnow-header{
+    
+    color: white;
+}
+
+.goodToKnow-text{
+    border-radius: 5px;
+    background-color: rgba(241, 203, 238, 0.925);
+    padding: 1% 1%
+
+}

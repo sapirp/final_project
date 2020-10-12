@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+.root{
+--primary-bg-color: #F7B1AB;
+--secondary-bg-color: #807182;
+--font-color: rgba(0,0,0,.8);
+--font-family: 'Montserrat',sans-serif;
+--form-border-color: rgba(0,0,0,.1);
+}
+
+*{
+    box-sizing: border-box;
+        
+
+}
+
+.form-container{
+    padding: 2.5em 0; 
+    display: block;
+    line-height: 1.7;
+    height: 400px;
+
+}
+
+
+.TrackForm{
+   /* background: linear-gradient(#6e2b5a 0%, #ec93d2 100%);*/
+    margin: 0 auto;
+    width: 55%;
+    border-radius: 5px;
+    
+    
+}
+
+.TrackForm.wellCare{
+    background: linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
+    border: 1px rgb(216, 160, 200) solid; 
+}
+
+.TrackForm.diperTrack{
+    background: linear-gradient(90deg, #e94086 0%, #e5925a 100%) ;
+    padding-bottom: 10px;
+    border: 1px rgb(231, 182, 142) solid;
+}
+
+.TrackForm.feedingTrack{
+    background: linear-gradient(90deg, #00aee0 0%, #00fadc 100%);
+    padding-bottom: 10px;
+    border: 1px rgb(142, 203, 231) solid;
+}
+
+.br{
+    display: block;
+    margin: 2.5em ;
+}
+
+.form-header{
+    text-align: center;
+    color: honeydew;
+    text-shadow: 2px 2px rgba(99, 82, 95, 0.712);
+    font-size: 40px;
+    margin: 7% ;
+    
+}
+
+.labels-look{
+    text-align: center;
+    
+   /* display:grid; */
+}
+
+/*.height-label .weight-label .uploadfiles-lable .calendar-lable{
+    margin: 100px;
+}*/
+
+.form-label{
+    color: honeydew;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.input-tag{
+    border-radius: 5px;
+    border: 1px rgb(156, 154, 154) solid;
+    margin: 0 5px;
+
+}
+
+
+@media (max-width: 900px) {
+    .form-container{
+        padding: 3rem 0;
+    }
+
+    .TrackForm{
+         margin: 0 auto;
+         width: 90%;
+         border-radius: 5px;        
+     }
+     
+}
+

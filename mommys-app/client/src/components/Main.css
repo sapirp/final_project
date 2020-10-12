@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+.site-section {
+    padding: 2.5em 0; 
+    display: block;
+    line-height: 1.7;
+    height: 400px;
+    
+
+}
+@media (min-width: 768px) {
+    .site-section {
+        padding: 5em 0; 
+    } 
+}
+.site-section.site-section-sm {
+    padding: 4em 0; 
+}
+
+.site-section {
+    padding: 7rem 0; 
+}
+@media (max-width: 900px) {
+    .site-section {
+        padding: 3rem 0; 
+        height: 970px;
+    } 
+}
+
+.container {
+    display: block;
+    line-height: 1.7;
+    position: relative;
+    z-index: 2;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  .container>.row {
+    height: calc(100vh - 196px);
+    min-height: 777px;
+    line-height: 1.7;
+  }
+
+  .row{
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+      font-weight: 300;
+      font-size: 1rem;
+  }
+
+.col-lg-4{
+    position:relative;
+    width:100%;
+    padding-right:30Px;
+    padding-left:15px;
+    height: 300px;
+}
+
+@media (min-width: 900px){ 
+    .col-lg-4{
+        -webkit-box-flex:0;
+        -ms-flex:0 0 33.33333%;
+        flex:0 0 33.33333% ;
+        max-width:33.33333%;
+    }
+}
+
+
+.block-2 {
+    padding: 40px;
+    position: relative;
+    text-align: center;
+    height: 260px; 
+}
+
+@media (max-width: 900px){
+    .block-2{
+        height: 300px;
+    }
+}
+
+.block-2 .wrap-icon {
+    position: relative;
+    width: 80px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 80px;
+      display: block;
+      border-radius: 50%;
+      margin-top: -70px;
+      margin-bottom: 30px; }
+      .block-2 .wrap-icon > span  {
+        color: #fff;
+        font-size: 2rem;
+        text-align: center;
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+    .block-2 h2 {
+      font-size: 22px;
+      color: #fff;
+       
+    }
+    .block-2 p {
+      color: rgba(255, 255, 255, 0.7);
+      margin: 40px ;
+     }
+    .block-2.red,
+    .block-2.red .wrap-icon {
+        background: linear-gradient(90deg, #00aee0 0%, #00fadc 100%)
+       }
+    .block-2.yellow,
+    .block-2.yellow .wrap-icon {
+        background: linear-gradient(90deg, #7349cc 0%, #e163e4 100%) 
+    }
+    .block-2.teal,
+    .block-2.teal .wrap-icon {
+        background: linear-gradient(90deg, #e94086 0%, #e5925a 100%) 
+    }
+
+  

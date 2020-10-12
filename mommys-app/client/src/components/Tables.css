@@ -1,0 +1,71 @@
+.title-style{
+    text-align: center;
+    color: #660f5f;
+    font-size: 34px;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    text-shadow: 2px 2px rgba(204, 187, 200, 0.712);
+}
+
+.tableContiner{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.button-style{
+    padding: 6px 6px;
+    margin: 0 2% 10px 0;
+    background-color: rgb(37, 228, 241);
+    color: #fff;
+    border: 1px solid rgb(36, 159, 168);
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+
+.delete-B-style{
+    border: none;
+    color: #fff;
+    background-color: red;
+    padding: 0 1px;
+    font-weight: bold;
+
+}
+
+.button-style:hover{
+    background-color: rgb(93, 124, 126);
+
+
+}
+
+.tableStyle{
+  /*  border-collapse: collapse; */
+    background: #660f5f;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+
+.t-head-style th {
+    border: 1px solid rgba(241, 219, 234, 0.979);
+    text-shadow: 2px 2px rgba(156, 140, 152, 0.712);
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.t-body-style td {
+    border: 1px solid rgba(241, 219, 234, 0.979);
+    color: rgb(230, 220, 220);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 3px;
+    border-radius: 5px;
+}
